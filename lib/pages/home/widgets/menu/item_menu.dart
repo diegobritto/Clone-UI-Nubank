@@ -25,7 +25,7 @@ class ItemMenu extends StatelessWidget {
         focusElevation: 0,
         highlightElevation: 0,
         hoverElevation: 0,
-        //splashColor: Colors.purple[900],
+        splashColor: Colors.purple[900],
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -38,12 +38,13 @@ class ItemMenu extends StatelessWidget {
                 Text(
                   text,
                   style: TextStyle(fontSize: 12),
-                )
+                ),
               ],
             ),
             Icon(Icons.chevron_right, size: 16,)
           ],
         ),
+        onPressed: () {},
       ),
     );
   }

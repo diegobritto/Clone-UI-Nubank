@@ -26,7 +26,7 @@ class MyAppBar extends StatelessWidget {
                     children: <Widget>[
                       Image.network(
                         'https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-3.png',
-                        height: 35,
+                        height: 30,
                         color: Colors.white,
                       ),
                       SizedBox(
